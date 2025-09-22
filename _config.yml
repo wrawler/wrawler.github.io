@@ -21,15 +21,7 @@ tagline: Sharing my tech-updates and thoughts on various domains # it will displ
 description: >- # used by seo meta and the atom feed
   Blogs about programming, tech, and life. Sharing my tech-updates and thoughts on various domains.
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://wrawler.github.io" # the base hostname & protocol for your site
-
-github:
-  username: wrawler
-
-twitter:
-  username: twitter_username # change to your Twitter username
+url: "https://wrawler.github.io" # the base hostname & protocol for your site, note that it does not end with a '/'.
 
 social:
   # Change to your full name.
@@ -38,20 +30,9 @@ social:
   email: mangoshake5888@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/wrawler # change to your GitHub homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
     - https://www.linkedin.com/in/wrawler
-
-# Site Verification Settings
-webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -60,18 +41,20 @@ webmaster_verifications:
 analytics:
   google:
     id: G-B30ZHZBN1T # fill in your Google Analytics ID
-  goatcounter:
-    id: # fill in your GoatCounter ID
-  umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
-  matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
+
   cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
-  fathom:
-    id: # fill in your Fathom Site ID
+    id: a217b7c1cfa643beb2244137129add37 # fill in your Cloudflare Web Analytics token
+  # goatcounter:
+  #   id: # fill in your GoatCounter ID
+  # umami:
+  #   id: # fill in your Umami ID
+  #   domain: # fill in your Umami domain
+  # matomo:
+  #   id: # fill in your Matomo ID
+  #   domain: # fill in your Matomo domain
+
+  # fathom:
+  #   id: # fill in your Fathom Site ID
 
 # Page views settings
 pageviews:
